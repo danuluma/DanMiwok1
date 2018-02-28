@@ -69,7 +69,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".NumbersActivity1"></activity>
+        <activity android:name=".ControlActivity"></activity>
     </application>
 
 </manifest>

@@ -46,4 +46,10 @@
         android:background="@color/category_phrases"
         android:text="@string/category_phrases" />
 
+    <TextView
+        android:id="@+id/control"
+        style="@style/CategoryStyle"
+        android:background="@color/category_control"
+        android:text="@string/category_control" />
+
 </LinearLayout>

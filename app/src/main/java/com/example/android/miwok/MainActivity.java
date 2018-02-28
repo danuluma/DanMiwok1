@@ -94,5 +94,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(phrasesIntent);
             }
         });
+
+        // Find the View that shows the control category
+        TextView control = (TextView) findViewById(R.id.control);
+
+        // Set a click listener on that View
+        control.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when the phrases category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link ControlActivity}
+                Intent controlIntent = new Intent(MainActivity.this, ControlActivity.class);
+
+                // Start the new activity
+                startActivity(controlIntent);
+            }
+        });
     }
 }
